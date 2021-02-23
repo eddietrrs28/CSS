@@ -49,25 +49,25 @@ section{
 }
 
 h3{
-    font-size: 2rem;
+    font-size: 3rem;
     width: 90%;
-    margin: 5% auto;
+    margin: 1% auto;
 }
 
 .textoPrincipal{
-    font-size: 1rem;
+    font-size: 20px;
     width: 90%;
-    margin: 10px auto;
+    margin: 20px auto;
     text-align: justify;
 }
 
 iframe{
     display: block;
-    margin: 3% auto;
+    margin: 4% auto;
 }
 
 footer{
-    height: 11vh;
+    height: 10vh;
     background-color: #666666;
 }
 footer > p{
