@@ -55,7 +55,7 @@ h3{
 }
 
 .textoPrincipal{
-    font-size: 20px;
+    font-size: 17px;
     width: 90%;
     margin: 20px auto;
     text-align: justify;
@@ -63,7 +63,7 @@ h3{
 
 iframe{
     display: block;
-    margin: 4% auto;
+    margin: 2% auto;
 }
 
 footer{
