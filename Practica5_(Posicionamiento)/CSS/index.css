@@ -11,34 +11,34 @@ div > h1{
     position: absolute;
     left: auto;
     top: auto;
-    transform: translate(5%,-110%); 
+    transform: translate(4%,-130%); 
     width: 20%;
     height: 30%;
     font-size: 70px;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: gray;
 }
 
 div > p{
     position: absolute;
-    top: 45%;
-    left: 4.8%;
+    top: 50%;
+    left: 7.6%;
     color: green;
     font-size: 20px;
 }
 
-.contenedor{
+.container{
     width: 100%;
     height: 500px;
-    margin: 0;
-    /* background-color: grey; */
     display: flex;
+    background-color: white;
 }
 
 .hijo{
     position: absolute;
     left: auto;
     top: auto;
-    transform: translate(-15%,-70%); 
+    transform: translate(-15%,-60%); 
     background-color: rgb(169, 216, 61);
     border-color: white;
     width: 150px;
@@ -54,7 +54,7 @@ div > p{
     position: absolute;
     left: auto;
     top: auto;
-    transform: translate(75%,-70%); 
+    transform: translate(75%,-60%); 
     background-color: rgb(169, 216, 61);
     border-color: white;
     width: 200px;
@@ -70,14 +70,72 @@ div > p{
     position: absolute;
     left: auto;
     top: auto;
-    transform: translate(125%,-70%); 
+    transform: translate(118%,-60%); 
     background-color: rgb(169, 216, 61);
     border-color: white;
-    width: 300px;
+    width: 320px;
     height: 45px;
     color: #fff;
     margin: 30px;
     font-size: 35px;
     text-align: center;
     
+}
+
+.hijo4{
+    position: absolute;
+    left: auto;
+    top: auto;
+    transform: translate(480%,-60%); 
+    background-color: rgb(169, 216, 61);
+    border-color: white;
+    width: 150px;
+    height: 45px;
+    color: #fff;
+    margin: 30px;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+.hijo5{
+    position: absolute;
+    left: auto;
+    top: auto;
+    transform: translate(450%,-60%); 
+    background-color: rgb(169, 216, 61);
+    border-color: white;
+    width: 200px;
+    height: 45px;
+    color: #fff;
+    margin: 30px;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+.hijo6{
+    position: absolute;
+    left: auto;
+    top: auto;
+    transform: translate(565%,-60%); 
+    background-color: rgb(169, 216, 61);
+    border-color: white;
+    width: 200px;
+    height: 45px;
+    color: #fff;
+    margin: 30px;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+.row{
+    background-color: transparent;
+}
+img{
+    display: block;
+    width: 100%;
+    height: 50vh;
+    padding-top: 3.2%;
 }
