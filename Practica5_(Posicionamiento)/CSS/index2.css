@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+div{
+    width: 100%;
+    height: 20vh;
+    background: rgba(163, 163, 163, 0.486);  
+    position: relative;
+
+    /* border-radius: 20%; */
+}
+
+div > h1{
+    position: absolute;
+    font-family: 'Akaya Telivigala';
+    left: auto;
+    top: auto;
+    transform: translate(40%,-60%); 
+    width: 30%;
+    height: 30%;
+    font-size: 80px;
+    color:black;
+}
+
+div > p{
+    position: absolute;
+    font-family: 'Roboto';
+    left: auto;
+    top: auto;
+    transform: translate(250%,-15%); 
+    color: rgb(169, 216, 61);
+    font-size: 55px;
+}
+
+.conteiner{
+    width: 80%;
+    height: 1150px;
+    background-color: rgb(169, 216, 61);
+    display: flex;
+}
+
+.conteiner2{
+    position: absolute;
+    width: 19vw;
+    height: 200px;
+    transform: translate(415%,3%); 
+    background-color: rgb(169, 216, 61);
+    
+}
+
+.conteiner3{
+    position: absolute;
+    width: 19vw;
+    height: 450px;
+    transform: translate(415%,48%); 
+    background-color: rgba(163, 163, 163, 0.486);  
+    
+}
+
+.hijo{
+    position: absolute;
+    left: auto;
+    top: auto;
+    transform: translate(0%,-70%); 
+    background-color: rgb(169, 216, 61);
+    width: 70vh;
+    height: 10px;
+    color: #fff;
+    margin: 30px;
+    font-size: 30px;
+    text-align: justify;
+    
+}
+
+.hijo2{
+    position: absolute;
+    left: auto;
+    top: auto;
+    transform: translate(130%,-70%); 
+    background-color: rgb(169, 216, 61);
+    width: 65vh;
+    height: 10px;
+    color: #fff;
+    margin: 30px;
+    font-size: 30px;
+    text-align: justify;
+    
+}
+
+.hijo3{
+    position: absolute;
+    left: auto;
+    top: 6%;
+    transform: translate(0%,1500%); 
+    background-color: rgb(169, 216, 61);
+    width: 50vh;
+    height: 20px;
+    color: #fff;
+    margin: 30px;
+    font-size: 30px;
+    text-align: justify;
+    
+}
+
+.hijo4{
+    position: absolute;
+    top: 60%;
+    transform: translate(150%,1400%); 
+    width: 50vh;
+    height: 20px;
+    font-size: 60px;
+    text-align: justify;
+    color:black
+}
+
+div > img{
+    display: flex;
+    width: 47vw;
+    height: 80vh;
+    transform: translate(65%,55%); 
+}
