@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300&family=Open+Sans&display=swap');
+
 div{
     width: 100%;
     height: 15vh;
     background: rgba(163, 163, 163, 0.486);  
-    position: relative;
+    position: absolute;
 
     /* border-radius: 20%; */
 }
@@ -11,73 +15,605 @@ div > h1{
     position: absolute;
     left: auto;
     top: auto;
-    transform: translate(5%,-110%); 
+    transform: translate(4%,-130%); 
     width: 20%;
     height: 30%;
     font-size: 70px;
+    font-family: 'Open Sans', sans-serif;
     color: gray;
+}
+
+div .titulo2{
+    position: absolute;
+    top: -40%;
+    left: 7.8%;
+    transform: translate(0%,0%);
+}
+
+.circulo6{
+    position: absolute;
+    margin: auto;
+    left: 0%;
+    right: 88.7%;
+    top: -15%;
+    bottom: 0;
+    width: 60px;
+    height: 60px;
+    transform: translate(0%,0%);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 6px;
+    border-color: rgb(137, 180, 37);
+    background-color:transparent;
 }
 
 div > p{
     position: absolute;
-    top: 45%;
-    left: 4.8%;
+    top: 50%;
+    left: 9.1%;
     color: green;
     font-size: 20px;
 }
 
-.contenedor{
+.container{
+    position: absolute;
     width: 100%;
-    height: 500px;
-    margin: 0;
-    /* background-color: grey; */
+    height: 50px;
+    top: 16%;
+    transform: translate(0%,0%);
+    display: flex;
+    background-color: whitesmoke;
+}
+
+div .revista{
+    position: absolute;
+    top: 14%;
+    left: 4%;
+    transform: translate(0%,0%);
+    color: green;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container1{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top: 23%;
+    transform: translate(0%,0%);
     display: flex;
 }
 
-.hijo{
+.container1 .marco{
+    position: absolute;
+    top: 5.5%;
+    left: 1%;
+    width: 97.5%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    background-color: transparent;
+    height: 360px;
+    
+}
+.container1 > img{
+    width: 100%;
+    height: 100%;
+    padding-top: 0%;
+}
+
+.container1 .hijo26{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    transform: translate(10%,350%);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+
+.container1 .hijo27{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: translate(10%,10%);
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-family:'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.container1 .hijo28{
+    position: absolute;
+    top: 32%;
+    left: 76%;
+    transform: translate(0%,0%);
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-family:'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.container1 .hijo29{
+    position: absolute;
+    top: 35%;
+    left: 70.5%;
+    transform: translate(0%,0%);
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family:'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.circulo5{
+    position: absolute;
+    margin: auto;
+    left: 49%;
+    right: 0;
+    top: 25%;
+    bottom: 0;
+    width: 45px;
+    height: 45px;
+    transform: translate(0%,0%);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(166, 218, 44);
+    background-color:transparent;
+}
+
+.container2{
+    position: absolute;
+    width: 23%;
+    height: 500px;
+    top: 77%;
+    display: flex;
+    background-color: rgb(102, 20, 88);
+}
+
+.container2 > p{
+    position: absolute;
+    top: 0%;
+    left: 6%;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans';
+    font-size: 30px;
+    text-align: justify;
+}
+
+.container2 .hijo7{
+    position: absolute;
+    top: auto;
+    left: auto;
+    transform: translate(60%,100%);
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: arial black;
+    text-align: center;
+}
+
+.circulo{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 25%;
+    bottom: 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    background-color: rgb(172, 16, 146);
+}
+
+.container2 .hijo8{
+    position: absolute;
+    top: auto;
+    left: auto;
+    transform: translate(35%,330%);
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-family:'Montserrat';
+    text-align: center;
+}
+
+.container2 .hijo9{
+    position: absolute;
+    top: 35%;
+    left: 23%;
+    transform: translate(100%,350%);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family:'Montserrat';
+    text-align: center;
+}
+
+.container2 .hijo10{
+    position: absolute;
+    top: 59%;
+    left: 10%;
+    transform: translate(10%,350%);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family:'Dancing Script', cursive;
+    text-align: center;
+}
+
+
+.container3{
+    position: absolute;
+    width: 23%;
+    height: 500px;
+    top: 77%;
+    transform: translate(110%,0%);
+    display: flex;
+    background-color: rgb(63, 58, 58);
+}
+
+.container3 .hijo11{
+    position: absolute;
+    top: 0%;
+    left: 27%;
+    transform: translate(10%,-40%);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family:'Montserrat';
+    text-align: center;
+}
+
+.container3 .hijo12{
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    transform: translate(20%,-40%);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family:'Montserrat';
+    text-align: center;
+}
+
+.container3 .hijo13{
+    position: absolute;
+    top: 0%;
+    left: 26%;
+    transform: translate(20%,100%);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family:'Montserrat';
+    text-align: center;
+}
+
+.container3 .hijo14{
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    transform: translate(20%,100%);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family:'Arial black';
+    text-align: center;
+}
+
+.container3 .hijo15{
+    position: absolute;
+    top: 35%;
+    left: 3%;
+    transform: translate(20%,100%);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family:'Montserrat';
+    text-align: center;
+}
+.container3 .hijo16{
+    position: absolute;
+    top: 65%;
+    left: 0;
+    transform: translate(0%,100%);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family:'Montserrat';
+    text-align: center;
+}
+
+.container3 .hijo17{
+    position: absolute;
+    top: 83%;
+    left: 30%;
+    transform: translate(0%,100%);
+    color: rgb(81, 145, 9);
+    font-size: 15px;
+    font-family:'Arial black';
+    text-align: center;
+}
+
+.container3 .hijo18{
+    position: absolute;
+    top: 88%;
+    left: 20%;
+    transform: translate(0%,100%);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family:'Montserrat';
+    text-align: center;
+}
+
+.circulo2{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 25px;
+    height: 25px;
+    transform: translate(-110%,-618%);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(140, 201, 27);
+    background-color:transparent;
+}
+
+.circulo3{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(132, 182, 14);
+    background-color:transparent;
+}
+
+.container4{
+    position: absolute;
+    width: 23%;
+    height: 500px;
+    top: 77%;
+    transform: translate(217%,0%);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(139, 139, 139, 0.486);
+    background-color: white;
+    display: flex;
+    
+}
+
+.container4 > img{
+    width: 100%;
+    height: 500px;
+    padding-top: 0%;
+}
+
+.container5{
+    position: absolute;
+    width: 23%;
+    height: 500px;
+    top: 77%;
+    transform: translate(333%,0%);
+    display: flex;
+    background-color: rgb(201, 201, 201);
+}
+
+.container5 > img{
+    width: 100%;
+    height: 500px;
+    padding-top: 0%;
+}
+
+.container5 .hijo19{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    transform: translate(10%,10%);
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-family:'Montserrat';
+    text-align: center;
+}
+
+.container5 .hijo20{
+    position: absolute;
+    top: 0%;
+    left: 36%;
+    transform: translate(20%,10%);
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-family:'Montserrat';
+    text-align: center;
+}
+
+.container5 .hijo21{
+    position: absolute;
+    top: 0%;
+    left: 17%;
+    transform: translate(20%,10%);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family:'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.container5 .hijo22{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    transform: translate(20%,10%);
+    color: rgb(184, 241, 50);
+    font-size: 25px;
+    font-family:'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.container5 .hijo23{
+    position: absolute;
+    top: 35%;
+    left: 9%;
+    transform: translate(20%,10%);
+    color: white;
+    font-size: 22px;
+    font-family:'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+.container5 .hijo24{
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    transform: translate(20%,10%);
+    color: white;
+    font-size: 22px;
+    font-family:'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+.container5 .hijo25{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    transform: translate(20%,10%);
+    color: white;
+    font-size: 22px;
+    font-family:'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+.circulo4{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    transform: translate(-90%,-310%);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(166, 218, 44);
+    background-color:transparent;
+}
+
+.container .hijo{
     position: absolute;
     left: auto;
     top: auto;
-    transform: translate(-15%,-70%); 
+    transform: translate(-15%,-60%); 
     background-color: rgb(169, 216, 61);
     border-color: white;
-    width: 150px;
-    height: 45px;
+    width: 130px;
+    height: 40px;
     color: #fff;
     margin: 30px;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     
 }
 
-.hijo2{
+.container .hijo2{
     position: absolute;
     left: auto;
     top: auto;
-    transform: translate(75%,-70%); 
+    transform: translate(70%,-60%); 
     background-color: rgb(169, 216, 61);
     border-color: white;
-    width: 200px;
-    height: 45px;
+    width: 180px;
+    height: 40px;
     color: #fff;
     margin: 30px;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     
 }
 
-.hijo3{
+.container .hijo3{
     position: absolute;
     left: auto;
     top: auto;
-    transform: translate(125%,-70%); 
+    transform: translate(135%,-60%); 
     background-color: rgb(169, 216, 61);
     border-color: white;
-    width: 300px;
-    height: 45px;
+    width: 240px;
+    height: 40px;
     color: #fff;
     margin: 30px;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     
+}
+
+.container .hijo4{
+    position: absolute;
+    left: auto;
+    top: auto;
+    transform: translate(448%,-60%); 
+    background-color: rgb(169, 216, 61);
+    border-color: white;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    margin: 30px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.container .hijo5{
+    position: absolute;
+    left: auto;
+    top: auto;
+    transform: translate(407%,-60%); 
+    background-color: rgb(169, 216, 61);
+    border-color: white;
+    width: 180px;
+    height: 40px;
+    color: #fff;
+    margin: 30px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.container .hijo6{
+    position: absolute;
+    left: auto;
+    top: auto;
+    transform: translate(518%,-60%); 
+    background-color: rgb(169, 216, 61);
+    border-color: white;
+    width: 180px;
+    height: 40px;
+    color: #fff;
+    margin: 30px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.container .hijo30{
+    position: absolute;
+    left: auto;
+    top: auto;
+    transform: translate(283%,-60%); 
+    background-color: rgb(109, 108, 108);
+    border-color: white;
+    width: 400px;
+    height: 40px;
+    color: #fff;
+    margin: 30px;
+    font-size: 28px;
+    text-align: center;
+    
+}
+
+.row{
+    background-color: transparent;
 }
